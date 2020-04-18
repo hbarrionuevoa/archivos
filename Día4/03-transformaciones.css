@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 80px auto;
+    height: 100px;
+    width: 100px;
+    background-color: #dddddd;
+}
+
+#div-1:hover {
+    transform: scale(2, 2);
+}
+
+#div-2:hover{
+    background-image: url('https://via.placeholder.com/100/242754/e93e43?text=APP');
+    transform: rotate(45deg);
+}
+
+#div-3:hover {
+    transform: translate(30px, 10px);
+}
+
+#div-4:hover{
+    transform: scale(1.2, 1.2) rotate(45deg);
+}

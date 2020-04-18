@@ -1,0 +1,24 @@
+/* Tipo de Fuentes */
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Tamañp de letra, el tamaño por defecto es 16 px */
+p {
+  font-size: 17px;
+  font-family: Tahoma, sans-serif;
+}
+/* Proporción de negrita del texto */
+h4{
+  font-weight: bold;
+}
+
+small{
+  font-style: oblique;
+}
+/* Propiedad de texto estilo shorthand */
+/* font-style font-weight; font-size; font-family */
+.texto-footer{
+  font: italic 100 10px Arial;
+}
+

@@ -1,0 +1,41 @@
+/* Funciones de Reseteo */
+/* Ningun elemento  */
+*{
+   margin: 0; 
+}
+header{
+    background-color: darkviolet;
+}
+
+main{
+    width: 50%;
+    background-color: lightcoral;
+    height: 100%;
+    overflow-y: scroll;
+}
+.section-1{
+    background-color: darkgreen;
+    color: #ADFDAD;
+    width: 50%;
+}
+
+.section-2{
+    background-color: darkred;
+    color: #FCAAAA;
+    width: 50%;
+    height: 100px;
+    /* overflow => determina que se harácon el contenido extra al tamaño del contenedor */
+    /* hidden => oculta el contenido que rebalse */
+    /* scroll => dibuja el scroll en el contenido, rebalse o no */
+    overflow: auto;
+}
+
+footer{
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer>p {
+    text-align: center;
+    background-color: deeppink;
+}

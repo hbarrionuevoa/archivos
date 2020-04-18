@@ -1,0 +1,39 @@
+/* Importando y declarando una nueva fuente */
+@font-face {
+  font-family: 'Press-Start-2P';
+  src: url('./PressStart2P-Regular.ttf');
+}
+
+/* Alineamiento de textos y no de elementos */
+
+h1 {
+  text-align: center;
+  font-family: Press-Start-2P;
+}
+
+/* Indenta o agrega sangria a la primera linea de un texto */
+
+p:not(.texto-footer):not(.letra-comic){
+  text-indent: 40px;
+  /* espacio entre y letra en un texto */
+  letter-spacing: 5px;
+  /* espacio entre palabra y palabra */
+  word-spacing: 10px;
+  /* interlineado */
+  line-height: 13px;
+}
+
+/* Todos los elementos que tienen la clase letra-comic */
+.letra-comic{
+  font-family: Press-Start-2P;
+  font-size: 10px;
+}
+small {
+  /* underline | overline | none | line through */
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

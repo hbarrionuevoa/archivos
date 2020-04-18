@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#div-1{
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    border: 1px solid #555555;
+    box-shadow: tomato 0px 0px 10px 5px;
+}
+
+#div-1:hover{
+    background-color: thistle;
+}
